@@ -8,4 +8,9 @@ class Dog
     @age = age
     @@all << self
   end
+
+  def all
+    return @@all
+  end
+  
 end
